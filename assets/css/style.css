@@ -1,9 +1,4 @@
-/*------------------------------------------------------------------
- * Multipurpose: Free Template by FreeHTML5.co
- * Author: https://freehtml5.co
- * Facebook: https://facebook.com/fh5co
- * Twitter: https://twitter.com/fh5co
- -------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
 [Table of styles content]
 
@@ -62,23 +57,13 @@ header::after {
   margin-right: 10px;
 }
 
-.login {
-  padding: 10px 20px;
-  font-size: 14px;
-  margin-right: 25px;
-  text-transform: uppercase;
-}
 
-.contact a:hover,
-.login:hover {
+.contact a:hover {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
 }
 
-.login i {
-  color: #ee1515;
-  margin-right: 8px;
-}
+
 
 .navbar-brand h1 {
   margin: 0;
@@ -154,11 +139,7 @@ header::after {
   margin-left: 20px;
 }
 
-form input.btn-primary:hover,
-form button.btn-primary:hover {
-  background-color: #fff;
-  color: #ee1515;
-}
+
 
 /*-----------------------------------
     1 - Hero
@@ -199,7 +180,7 @@ form button.btn-primary:hover {
   -webkit-transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
           transform: matrix(0.93128, 0, 0, 0.93128, 0, 0);
   padding: 35px 0 35px 30px;
-  background-color: rgba(255, 255, 255, 0.51);
+  background-color: rgba(255, 255, 255, 0.77);
   border-top-right-radius: 100px;
   border-bottom-left-radius: 10px;
   margin-bottom: 0;

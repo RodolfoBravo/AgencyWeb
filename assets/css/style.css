@@ -24,6 +24,11 @@ header {
   color: #fff;
   z-index: 1000;
 }
+.other{
+  background-color: rgba(26, 10, 56, 0.866);
+  color: #fff;
+  z-index: 1000;
+}
 
 header a {
   color: #fff;

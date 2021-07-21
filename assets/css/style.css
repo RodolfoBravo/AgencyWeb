@@ -15,6 +15,7 @@
 11 - CTA 2
 12 - Footer Widgets
 13 - Foot Note
+14 - Box Cookies
 --------------------------------------------------------------------*/
 /*-----------------------------------
     1 - Header
@@ -134,15 +135,26 @@ header::after {
   font-size: 1.5rem;
 }
 
-.cart:hover,
-.login-icon:hover,
-.search-icon:hover {
+.cart:hover {
   color: #ee1515;
 }
 
 .cart {
   margin-left: 20px;
 }
+
+
+.dropdown-menu {
+  margin-top: 0.5rem;
+  background-color: rgba(26, 10, 56, 0.5);
+}
+.dropdown-item {
+color:rgba(255, 255, 255)
+}
+.dropdown-item:hover {
+  color:rgb(255, 255, 255);
+  background:  rgba(26, 10, 56,0.8);
+  }
 
 
 
@@ -903,11 +915,11 @@ span {
 .foot-note {
   padding: 35px 0;
   background-color: #ee1515;
-  color: #26264b;
+  color: #ffffff;
 }
 
 .foot-note a {
-  color: #26264b;
+  color: #ffffff;
 }
 
 .foot-note a:last-child {
@@ -916,4 +928,25 @@ span {
 
 .foot-note a.fh5-link {
   margin-left: 0;
+}
+
+/*---------------------------------------
+    box Cookie
+----------------------------------------*/
+
+#cajacookies {
+  box-shadow: 0px 0px 5px 5px #45cd02;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+  top: 10px;
+  width: 100%;
+}
+
+#cajacookies button {
+  color: black;
 }
